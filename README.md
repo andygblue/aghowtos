@@ -9,4 +9,4 @@ List of topics:
 
 Installing Cloud Pak for Integration FixPacks [Fixpacks](FixPacks/README.md)
 
-Linking CP4I/OpenShift to RedHat Marketplace and Installing License Operator [Marketplace](RedHatMarketplace/README.md)
+Linking CP4I/OpenShift to RedHat Marketplace and Installing License Operator [Marketplace and License Service](RedHatMarketplaceAndLicenseService/README.md)
