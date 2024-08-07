@@ -12,7 +12,7 @@ You can use the IBM Operator Catalog, or if you want to use the individual catal
 
 (Again, no warranty, no endorsement, use at your own risk etc)
 
-[CP4I 16.1.0.1 Fixpack with ACE 12.0.1 and MQ 9.4.0 Fixpack](catalog-sources-16.1.0.1-ACE12.0.1-mq9.4.0-aug24.shjuly24.sh)
+[CP4I 16.1.0.1 Fixpack with ACE 12.0.1 and MQ 9.4.0 Fixpack](catalog-sources-16.1.0.1-ACE12.0.1-mq9.4.0-aug24.sh)
 
 [CP4I 16.1.0 GA](catalog-sources-16.1.0-June24.sh)
 
