@@ -1,5 +1,5 @@
 # Download and apply catalog sources
-# Updated for CP4I 16.1.0.1 July Fixpack and ACE 12.0.1 Fixpack for SC-2
+# Updated for CP4I 16.1.0.1 July Fixpack and ACE 12.0.2 Fixpack for SC-2 and MQ 9.4.0
 # Reference for versions in CP4I Docs here: https://www.ibm.com/docs/en/cloud-paks/cp-integration/16.1.0?topic=images-adding-catalog-sources-cluster
 # Note that you will need to be logged into your cluster through `oc login login <openshift_url> -u <username> -p <password> -n <namespace>` and you will also need to have the ibm-pak in your %PATH%.
 
@@ -34,14 +34,14 @@ export OPERATOR_PACKAGE_NAME=ibm-apiconnect
 export OPERATOR_VERSION=5.2.0
 deploy_catalog_source
 
-# IBM App Connect 12.0.1 SC-2 Fixpack
+# IBM App Connect 12.0.2 Fixpack
 export OPERATOR_PACKAGE_NAME=ibm-appconnect
-export OPERATOR_VERSION=12.0.1
+export OPERATOR_VERSION=12.0.2
 deploy_catalog_source
 
-# IBM MQ
+# IBM MQ - update to operator 3.2.3 August MQ 9.4.0
 export OPERATOR_PACKAGE_NAME=ibm-mq
-export OPERATOR_VERSION=3.2.0
+export OPERATOR_VERSION=3.2.3
 deploy_catalog_source
 
 # IBM Event Streams
