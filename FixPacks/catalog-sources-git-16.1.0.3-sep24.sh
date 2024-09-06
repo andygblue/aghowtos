@@ -1,7 +1,7 @@
 # Download and apply catalog sources
 # Updated for CP4I 16.1.0.3 August Fixpack 
 # Reference for versions in CP4I Docs here: https://www.ibm.com/docs/en/cloud-paks/cp-integration/16.1.0?topic=images-adding-catalog-sources-cluster
-# Note that you will need to be logged into your cluster through `oc login login <openshift_url> -u <username> -p <password> -n <namespace>` and you will also need to have the ibm-pak in your %PATH%.
+# Note that you will need to be logged into your cluster through `oc login login <openshift_url> -u <username> -p <password> -n <namespace>`
 
 #This uses the updated and simplified method of applying catalog sources from Sept '24
 
