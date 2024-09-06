@@ -17,8 +17,8 @@ oc apply --filename https://raw.githubusercontent.com/IBM/cloud-pak/master/repo/
 # IBM App Connect 12.0.3 Fixpack
 oc apply --filename https://raw.githubusercontent.com/IBM/cloud-pak/master/repo/case/ibm-appconnect/12.0.3/OLM/catalog-sources.yaml
 
-# IBM MQ - update to operator 3.2.3 August MQ 9.4.0
-oc apply --filename https://raw.githubusercontent.com/IBM/cloud-pak/master/repo/case/ibm-mq/3.2.3/OLM/catalog-sources.yaml
+# IBM MQ - update to operator 3.2.4
+oc apply --filename https://raw.githubusercontent.com/IBM/cloud-pak/master/repo/case/ibm-mq/3.2.4/OLM/catalog-sources.yaml
 
 # IBM Event Streams
 oc apply --filename https://raw.githubusercontent.com/IBM/cloud-pak/master/repo/case/ibm-eventstreams/3.4.0/OLM/catalog-sources.yaml
