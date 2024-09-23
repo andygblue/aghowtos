@@ -14,8 +14,8 @@ oc apply --filename https://raw.githubusercontent.com/IBM/cloud-pak/master/repo/
 # IBM API Connect
 oc apply --filename https://raw.githubusercontent.com/IBM/cloud-pak/master/repo/case/ibm-apiconnect/5.2.0/OLM/catalog-sources.yaml
 
-# IBM App Connect 12.0.3 Fixpack
-oc apply --filename https://raw.githubusercontent.com/IBM/cloud-pak/master/repo/case/ibm-appconnect/12.0.3/OLM/catalog-sources.yaml
+# IBM App Connect 12.0.4 Fixpack - update to 12.0.4
+oc apply --filename https://raw.githubusercontent.com/IBM/cloud-pak/master/repo/case/ibm-appconnect/12.0.4/OLM/catalog-sources.yaml
 
 # IBM MQ - update to operator 3.2.4
 oc apply --filename https://raw.githubusercontent.com/IBM/cloud-pak/master/repo/case/ibm-mq/3.2.4/OLM/catalog-sources.yaml
